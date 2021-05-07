@@ -1,0 +1,17 @@
+beautifulsoup4==4.9.3
+certifi==2020.12.5
+chardet==4.0.0
+colorama==0.4.4
+fake-useragent==0.1.11
+idna==2.10
+loguru==0.5.3
+lxml==4.6.3
+pyaes==1.6.1
+pyasn1==0.4.8
+requests==2.25.1
+rsa==4.7.2
+soupsieve==2.2.1
+steampy==0.74
+Telethon==1.21.1
+urllib3==1.26.4
+win32-setctime==1.0.3
