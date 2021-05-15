@@ -454,7 +454,7 @@ class LolzWorker:
     def parse_trade_url(post_body_html: str) -> str:
         trade_url: str = ''
         try:
-            result = re.search(r'\?partner=\d+&amp;token=([A-z]|[0-9]|-|_)+', post_body_html)
+            result = re.search(r'\?partner=\d+&(amp;)?token=([A-z]|[0-9]|-|_)+', post_body_html)
             if result:
                 result = result.group(0).replace('amp;', '')
                 trade_url = 'https://steamcommunity.com/tradeoffer/new/' + result
